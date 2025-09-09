@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_vendas
+    description: sales table as a view
+    columns:
+      - name: cod_pedido
+        data_tests:
+          - unique
+          - not_null

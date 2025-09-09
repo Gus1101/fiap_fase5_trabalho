@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: vendas_valor_por_estado
+    description: vendas por estado
+    columns:
+      - name: estado
+        data_tests:
+          - not_null
+          - unique
+  
+  - name: ranking_formas_pagamento
+    description: vendas por forma de pagamento
+    columns:
+      - name: formapagto
+        data_tests:
+          - not_null
+          - unique
+
+  - name: vendas_valor_categoria
+    description: vendas por categoria
+    columns:
+      - name: categoriaprod
+        data_tests:
+          - not_null
+          - unique
+
+  - name: cent_dist_demanda
+    description: vendas por centro de dist
+    columns:
+      - name: centro_distribuicao
+        data_tests:
+          - not_null
+          - unique
+
+  - name: vendas_por_ano_mes
+    description: vendar por ano e mes
+    columns:
+      - name: ano
+        data_tests:
+          - not_null
+      - name: mes
+        data_tests:
+          - not_null
+
