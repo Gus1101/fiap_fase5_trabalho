@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/.git": false,
+        "**/.vscode": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
+    }
+}
